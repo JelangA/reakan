@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Self</title>
+    <style>
+        .container{
+            position: relative;
+            margin-top: 25px;
+        }
+        body{
+            border: 2px solid royalblue;
+            max-width: 250px;
+            height: 350px;
+            margin: 30px auto;
+        }
+        input{
+            width: 97%;
+            display: block;
+            margin-bottom: 5px;
+            height: 30px;
+            margin-top: 10px;
+        }
+        button{
+            margin: auto;
+            width: 45px;
+            height: 45px;
+        }
+        .minus, .plus, .multiple, .devide{
+            position: absolute;
+            right: 0%;
+        }
+        .plus{
+            top:0%;
+        }
+        .minus{
+            top: 45px;
+        }
+        .multiple{
+            top: 90px;
+        }
+        .devide{
+            top: 135px;
+        }
+        .luar{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" name="number">
+    <div class="container">
+        <div class="first">
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+        </div>
+        <button class="plus">+</button>
+        <div class="second">
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+        </div>
+        <button class="minus">-</button>
+        <div class="third">
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>            
+        </div>
+        <button class="multiple">x</button>
+        <div class="last">
+            <button>0</button>
+
+        </div>
+        <button class="devide">:</button>
+    </div>
+    <div>
+        <button class="luar equal">=</button>
+    </div>
+    <div>
+        <button class="luar clear">C</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
