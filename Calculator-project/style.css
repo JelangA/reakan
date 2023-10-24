@@ -1,0 +1,44 @@
+.container {
+  position: relative;
+  margin-top: 25px;
+}
+body {
+  border: 2px solid royalblue;
+  max-width: 250px;
+  height: 350px;
+  margin: 30px auto;
+}
+input {
+  width: 97%;
+  display: block;
+  margin-bottom: 5px;
+  height: 30px;
+  margin-top: 10px;
+}
+button {
+  margin: auto;
+  width: 45px;
+  height: 45px;
+}
+.minus,
+.plus,
+.multiple,
+.devide {
+  position: absolute;
+  right: 0%;
+}
+.plus {
+  top: 0%;
+}
+.minus {
+  top: 45px;
+}
+.multiple {
+  top: 90px;
+}
+.devide {
+  top: 135px;
+}
+.luar {
+  width: 100%;
+}
